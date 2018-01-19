@@ -11,9 +11,45 @@
     <h3 text-center>Enter Registration Details</h3>
     <ion-list>
         <ion-item>
-            <ion-label color="primary">Username/Email</ion-label>
+            <ion-label color="primary">Full Name</ion-label>
             <ion-input placeholder=" "></ion-input>
         </ion-item>
+        <ion-item>
+            <ion-label color="primary">Email</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">Password</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">Re-Enter Password</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">Phone</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">Street</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">City</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">State</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="primary">Zip Code</ion-label>
+            <ion-input placeholder=" "></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label>Agree to Terms</ion-label>
+              <ion-checkbox [(ngModel)]="agreeTerms" (ionChage)="updateAgreeTerms()"></ion-checkbox>
+          </ion-item>
     </ion-list>
 
     <button ion-button block>Register</button>    

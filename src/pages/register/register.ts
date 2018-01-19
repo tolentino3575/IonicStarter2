@@ -7,7 +7,12 @@ import { NavController } from 'ionic-angular'
 })
 
 export class RegisterPage{
+    agreeTerms: boolean = false;
+
     constructor(public navCtrl:NavController){
-        
+    }
+
+    updateAgreeTerms(){
+        this.agreeTerms = true;
     }
 }

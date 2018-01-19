@@ -9,6 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { TabsPage } from '../pages/tabs/tabs';
+import { MinutesPage } from '../pages/minutes/minutes';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -22,7 +23,8 @@ import { HttpModule } from '@angular/http';
     ListPage,
     LoginPage,
     RegisterPage,
-    TabsPage
+    TabsPage,
+    MinutesPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { HttpModule } from '@angular/http';
     ListPage,
     LoginPage,
     RegisterPage,
-    TabsPage
+    TabsPage,
+    MinutesPage
   ],
   providers: [
     StatusBar,
