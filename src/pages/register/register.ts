@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular'
 
 @Component({
-    selector: 'register-page',
+    selector: 'page-register',
     templateUrl: 'register.html'
 })
 
