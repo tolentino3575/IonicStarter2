@@ -10,10 +10,10 @@
 <ion-content padding>
     <h2>You have X minutes left in your account</h2>
 
-    <h4>Still Sleepy?</h4>
+    <h4>Need More?</h4>
     <form (submit)="addMinutes()">
         <ion-item>
-            <ion-label>Select Minutes</ion-label>
+            <ion-label>Select Amount</ion-label>
             <ion-select [(ngModel)]="minutes" name="minutes">
                 <ion-option value="15">15 Minutes</ion-option>
                 <ion-option value="30">30 Minutes</ion-option>
