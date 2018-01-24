@@ -7,12 +7,30 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Enter your Location</h3>
+<ion-content padding class="card-background-page">
+  <h3 text-center>Enter your Location</h3>
 
-<ion-toolbar>
-  <ion-searchbar></ion-searchbar>
-</ion-toolbar>
+  <ion-toolbar color="transparent">
+    <ion-searchbar></ion-searchbar>
+    <button ion-button block color="hohmGreen">Find a HOHM</button>
+  </ion-toolbar>
 
-  <button ion-button secondary menuToggle color="hohmGreen">Toggle Menu</button>
+  <ion-card>
+    <img src="http://ucsdnews.ucsd.edu/news_uploads/Geisel-Night-DrSeuss-150720.jpg">
+    <div class="card-title">UCSD</div>
+    <div class="card-subtitle">4 Pods</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="https://www.admitsee.com/bloguploads/xucla-2b.jpg.pagespeed.ic.5mJ47omKMq.jpg">
+    <div class="card-title">UCLA</div>
+    <div class="card-subtitle">6 Pods</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="https://img.huffingtonpost.com/asset/569fdeae2a00006e00030eac.jpeg?ops=scalefit_970_noupscale">
+    <div class="card-title">STANFORD</div>
+    <div class="card-subtitle">6 Pods</div>
+  </ion-card>
+
 </ion-content>
